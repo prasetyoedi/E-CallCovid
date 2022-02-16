@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --main-font-color:#F95E5E;
+    --secondary-font-color: #44E154;
+    --main-dark: #272727;
+}
+
+.main-color{
+    color: var(--main-font-color);
+}
+
+.judul{
+    font-size: 30px;
+}
+
+h1{
+    font-size: 76px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 36px;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero{
+    margin-top: 75px;
+    /* margin-bottom: 100px; */
+}
+
+
+.more-btn {
+    border-radius: 50px;
+    background-color: var(--main-font-color);
+    border: none;
+    height: 40px;
+    width: 155px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.news{
+    margin-top: 125px;
+    margin-bottom: 50px;
+    padding-top: 87px;
+}
+
+.form{
+    background-color: var(--main-font-color);
+    margin-top: 150px;
+}
+
+.garis_verikal{
+    border-left: 1px black solid;
+    height: 170px;
+    width: 0px;
+    }
+
+
+.btn-color{
+    border-radius: 50px;
+    background-color: var(--main-font-color);
+}
+
+.positive{
+    color: var(--main-font-color);
+}
+
+.recovered{
+    color: var(--secondary-font-color);
+}
+
+.img-logo{
+    width: 150px;
+    height: 150px;
+}
+
+.img-logo-header{
+    width: 60px;
+    height: 60px;
+}
+@media (max-width: 800px) {
+    .img-logo-header{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .emergency{
+        font-size: 9px;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+    .more-btn{
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+        margin-top: -25px;
+    }
+
+    h1{
+        font-size: 36px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .news{
+        margin-top: 35px;
+    }
+    
+    .hero{
+        margin-top: 0%;
+    }
+    .img-logo{
+        text-align: center;
+    }
+    .my-alert{
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 500px){
+    footer .container{
+        margin-left: 75px;
+    }
+}
